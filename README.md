@@ -43,7 +43,7 @@ This project follows a simplified Hexagonal Architecture:
 - **application** → use cases and ports (in/out)
 - **infrastructure** → adapters (REST, persistence)
 
-The objective is to keep business logic independent from frameworks and external technologies.
+The objective is to keep business logic independent off frameworks and external technologies.
 
 ---
 
