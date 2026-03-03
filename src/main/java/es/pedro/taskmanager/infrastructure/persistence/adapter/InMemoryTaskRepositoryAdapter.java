@@ -12,7 +12,8 @@ import java.util.concurrent.atomic.AtomicLong;
  * Adaptador de infraestructura que implementa el puerto de repositorio en memoria.
  * Util para desarrollo y pruebas sin base de datos real.
  */
-@Component
+//Desactivar el InMemory para evitar choque de beans
+//@Component
 public class InMemoryTaskRepositoryAdapter implements TaskRepositoryPort {
 
     // Almacenamiento en memoria seguro para concurrencia basica.
